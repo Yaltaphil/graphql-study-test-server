@@ -1,0 +1,38 @@
+const db = {
+  authors: [
+    { id: 1, name: "Kate Chopin" },
+    { id: 2, name: "Paul Auster" },
+    { id: 3, name: "Ursula K. Le Guin" },
+    { id: 4, name: "Ray Bradbury" },
+    { id: 5, name: "Agatha Christie" },
+    { id: 6, name: "George Orwell" },
+    { id: 7, name: "Jane Austen" },
+    { id: 8, name: "Haruki Murakami" },
+    { id: 9, name: "Terry Pratchett" },
+    { id: 10, name: "Isaac Asimov" },
+  ],
+  books: [
+    { id: 1, title: "The Awakening", authorId: 1 },
+    { id: 2, title: "City of Glass", authorId: 2 },
+    { id: 3, title: "A Wizard of Earthsea", authorId: 3 },
+    { id: 4, title: "The Left Hand of Darkness", authorId: 3 },
+    { id: 5, title: "Fahrenheit 451", authorId: 4 },
+    { id: 6, title: "The Martian Chronicles", authorId: 4 },
+    { id: 7, title: "Murder on the Orient Express", authorId: 5 },
+    { id: 8, title: "Death on the Nile", authorId: 5 },
+    { id: 9, title: "And Then There Were None", authorId: 5 },
+    { id: 10, title: "1984", authorId: 6 },
+    { id: 11, title: "Animal Farm", authorId: 6 },
+    { id: 12, title: "Pride and Prejudice", authorId: 7 },
+    { id: 13, title: "Emma", authorId: 7 },
+    { id: 14, title: "Kafka on the Shore", authorId: 8 },
+    { id: 15, title: "Norwegian Wood", authorId: 8 },
+    { id: 16, title: "The Colour of Magic", authorId: 9 },
+    { id: 17, title: "Mort", authorId: 9 },
+    { id: 18, title: "I, Robot", authorId: 10 },
+    { id: 19, title: "Foundation", authorId: 10 },
+    { id: 20, title: "The New York Trilogy", authorId: 2 },
+  ],
+};
+
+export default db;
